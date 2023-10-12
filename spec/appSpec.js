@@ -10,7 +10,11 @@ describe("A suite of test for the class Main for Berlin Clock", function(){
         expect(result).toBe('jaune');
     });
 
+    it("minuteFirstLine  given 0.00 should return noir", function(){
+            
+        let result = time.minuteFirstLine(0);
 
+        expect(result).toBe('noir');
     });
 
 });
