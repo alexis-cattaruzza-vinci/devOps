@@ -1,22 +1,20 @@
 {
-  "name": "ex.1",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "name": "tdd-ipl",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "test": "jasmine"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jasmine": "^5.1.0"
+    },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexis-cattaruzza-vinci/devOps.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexis-cattaruzza-vinci/devOps/issues"
-  },
-  "homepage": "https://github.com/alexis-cattaruzza-vinci/devOps#readme",
-  "description": "",
-  "devDependencies": {
-    "jasmine": "^5.1.0"
   }
 }
